@@ -1,0 +1,21 @@
+{
+  "name": "jest-basic-mommify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/tanongsakintean/jest-basic-mommify.git",
+  "author": "Tanongsak Intean <71477852+tanongsakintean@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "yarn run test -- --watch",
+    "coverage": "jest --collect-coverage"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  }
+}
